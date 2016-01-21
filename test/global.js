@@ -7,8 +7,8 @@ var Global = function () { };
  * 在 server 启动时
  **/
 Global.prototype.onStart = function (server, done) {
-    server.express.use(function (req, res) {
-        res.send("express test");
+    server.use("/test", function (req, res, next) {
+        res.send("hello express");
     });
     done();
 };
