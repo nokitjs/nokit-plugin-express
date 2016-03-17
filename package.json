@@ -1,29 +1,29 @@
 {
-    "name": "nokit-plugin-express",
-    "version": "0.0.4",
-    "description": "使 nokit 可以直接使用针对 express 中间件",
-    "main": "./lib/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nokitjs/nokit-plugin-express.git"
-    },
-    "keywords": [
-        "nokit",
-        "nokitjs",
-        "express",
-        "plugin",
-        "middleware"
-    ],
-    "author": "Houfeng",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/nokitjs/nokit-plugin-express/issues"
-    },
-    "homepage": "https://github.com/nokitjs/nokit-plugin-express#readme",
-    "dependencies": {
-        "express": "^4.13.3"
-    }
+  "name": "nokit-plugin-express",
+  "version": "0.0.5",
+  "description": "使 nokit 可以直接使用针对 express 中间件",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nokitjs/nokit-plugin-express.git"
+  },
+  "keywords": [
+    "nokit",
+    "nokitjs",
+    "express",
+    "plugin",
+    "middleware"
+  ],
+  "author": "Houfeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nokitjs/nokit-plugin-express/issues"
+  },
+  "homepage": "https://github.com/nokitjs/nokit-plugin-express#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
